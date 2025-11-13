@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indikator Pembelajaran</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      /* ==== STYLE TAMBAHAN UNTUK DROPDOWN INDIKATOR ==== */
+
+      .accordion {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        overflow: hidden;
+      }
+
+      .accordion-header {
+        background-color: #005f73;
+        color: white;
+        cursor: pointer;
+        padding: 15px 20px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        width: 100%;
+        transition: background-color 0.3s;
+      }
+
+      .accordion-header:hover {
+        background-color: #0a9396;
+      }
+
+      .accordion-content {
+        display: none;
+        padding: 20px;
+        background-color: #f9f9f9;
+        animation: fadeIn 0.3s ease-in-out;
+      }
+
+      .accordion-content h4 {
+        color: #002b5b;
+        margin-top: 15px;
+      }
+
+      .placeholder-box {
+        border: 2px dashed #ccc;
+        border-radius: 8px;
+        padding: 25px;
+        background: #fff;
+        color: #777;
+        font-size: 0.9rem;
+        margin-top: 10px;
+      }
+
+      .link-group a {
+        display: inline-block;
+        background-color: #0a9396;
+        color: white;
+        text-decoration: none;
+        padding: 8px 14px;
+        margin: 5px 5px 0 0;
+        border-radius: 6px;
+        transition: background 0.3s;
+        font-size: 0.9rem;
+      }
+
+      .link-group a:hover {
+        background-color: #94d2bd;
+        color: #002b5b;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-5px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* ==== RESPONSIF ==== */
+      @media (max-width: 600px) {
+        .accordion-header {
+          font-size: 0.95rem;
+          padding: 12px 15px;
+        }
+
+        .accordion-content {
+          padding: 15px;
+        }
+
+        .placeholder-box {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Indikator Pembelajaran</h1>
+      <p>Dasar Fotografi Kelas X DKV</p>
+    </header>
+
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="tujuan.html">Tujuan</a>
+      <a href="materi.html">Materi</a>
+      <a href="kuis.html">Kuis</a>
+      <a href="rangkuman.html">Rangkuman</a>
+    </nav>
+
+    <div class="container">
+      <h2>Daftar Indikator</h2>
+      <p>
+        Klik salah satu indikator di bawah untuk melihat rincian aktivitas
+        belajar.
+      </p>
+
+      <!-- ==== INDIKATOR 1 ==== -->
+      <div class="accordion">
+        <button class="accordion-header">
+          📸 Indikator 1 – Mengenal dan Mengidentifikasi Peralatan Kamera
+        </button>
+        <div class="accordion-content">
+          <h4>🎯 Tujuan Fungsional: Orientasi Belajar</h4>
+          <p>
+            Setelah mempelajari bagian ini, siswa mampu mengenal dan menggunakan
+            peralatan dasar fotografi (kamera, lensa, tripod, dan aksesoris
+            lainnya) dengan benar sesuai fungsi dan jenisnya.
+          </p>
+
+          <h4>🧠 Kuis / Diagnostik Awal</h4>
+          <div class="placeholder-box">
+            Tempat untuk embed kuis (contoh: Google Form, Quizizz, atau kuis
+            HTML).
+          </div>
+
+          <h4>💡 Pemantik / Kasus Nyata</h4>
+          <div class="placeholder-box">
+            Contoh video singkat tentang fotografer profesional yang menjelaskan
+            peralatan mereka.
+          </div>
+
+          <h4>🪞 Refleksi Awal</h4>
+          <div class="placeholder-box">
+            Pertanyaan: “Peralatan apa yang paling sering kamu lihat digunakan
+            dalam pemotretan, dan mengapa penting?”
+          </div>
+
+          <h4>🔗 Navigasi ke Materi & Video</h4>
+          <div class="link-group">
+            <a href="materi.html">📖 Buka Materi</a>
+            <a href="materi.html#video1">🎬 Lihat Video</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==== INDIKATOR 2 ==== -->
+      <div class="accordion">
+        <button class="accordion-header">
+          🌤️ Indikator 2 – Menjelaskan Konsep Segitiga Exposure
+        </button>
+        <div class="accordion-content">
+          <h4>🎯 Tujuan Fungsional: Orientasi Belajar</h4>
+          <p>
+            Siswa memahami hubungan antara ISO, aperture, dan shutter speed
+            untuk menghasilkan pencahayaan foto yang tepat.
+          </p>
+
+          <h4>🧠 Kuis / Diagnostik Awal</h4>
+          <div class="placeholder-box">
+            Tempat embed kuis tentang konsep pencahayaan dan efek exposure.
+          </div>
+
+          <h4>💡 Pemantik / Kasus Nyata</h4>
+          <div class="placeholder-box">
+            Gambar dua hasil foto (overexposed dan underexposed) untuk menantang
+            siswa menemukan penyebab perbedaan.
+          </div>
+
+          <h4>🪞 Refleksi Awal</h4>
+          <div class="placeholder-box">
+            Pertanyaan: “Kapan kamu harus menaikkan ISO, dan apa konsekuensinya
+            terhadap kualitas foto?”
+          </div>
+
+          <h4>🔗 Navigasi ke Materi & Video</h4>
+          <div class="link-group">
+            <a href="materi.html">📖 Buka Materi</a>
+            <a href="materi.html#video2">🎬 Lihat Video</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==== INDIKATOR 3 ==== -->
+      <div class="accordion">
+        <button class="accordion-header">
+          🎞️ Indikator 3 – Menerapkan Komposisi dalam Pengambilan Gambar
+        </button>
+        <div class="accordion-content">
+          <h4>🎯 Tujuan Fungsional: Orientasi Belajar</h4>
+          <p>
+            Siswa mampu menerapkan berbagai teknik komposisi (rule of thirds,
+            framing, leading lines, dll.) untuk menghasilkan foto yang menarik
+            secara visual.
+          </p>
+
+          <h4>🧠 Kuis / Diagnostik Awal</h4>
+          <div class="placeholder-box">
+            Tempat untuk embed kuis seputar komposisi visual.
+          </div>
+
+          <h4>💡 Pemantik / Kasus Nyata</h4>
+          <div class="placeholder-box">
+            Contoh dua foto dengan komposisi berbeda – siswa diminta
+            membandingkan daya tarik visualnya.
+          </div>
+
+          <h4>🪞 Refleksi Awal</h4>
+          <div class="placeholder-box">
+            Pertanyaan: “Apa perbedaan foto yang asal ambil dengan foto yang
+            dirancang komposisinya?”
+          </div>
+
+          <h4>🔗 Navigasi ke Materi & Video</h4>
+          <div class="link-group">
+            <a href="materi.html">📖 Buka Materi</a>
+            <a href="materi.html#video3">🎬 Lihat Video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>© 2025 Dasar Fotografi SMK DKV</footer>
+
+    <script>
+      // ==== LOGIKA DROPDOWN (ACCORDION) ====
+      const headers = document.querySelectorAll(".accordion-header");
+      headers.forEach((header) => {
+        header.addEventListener("click", () => {
+          const content = header.nextElementSibling;
+          const isActive = content.style.display === "block";
+
+          // Tutup semua
+          document
+            .querySelectorAll(".accordion-content")
+            .forEach((c) => (c.style.display = "none"));
+
+          // Buka yang diklik
+          if (!isActive) {
+            content.style.display = "block";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

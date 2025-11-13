@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game & Kuis - Dasar Fotografi</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* ===== Tambahan gaya khusus untuk laman Game & Quiz ===== */
+      .game-container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      details {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #f8f8f8;
+        transition: 0.3s;
+      }
+
+      summary {
+        font-weight: bold;
+        font-size: 1.1em;
+        padding: 15px;
+        cursor: pointer;
+        background: #f0f0f0;
+        border-radius: 8px;
+      }
+
+      summary:hover {
+        background: #e5e5e5;
+      }
+
+      .submenu {
+        padding: 15px 25px;
+        background: #fff;
+        border-top: 1px solid #ddd;
+      }
+
+      .submenu p {
+        margin-bottom: 10px;
+      }
+
+      .game-link {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: 0.3s;
+      }
+
+      .game-link:hover {
+        background-color: #0056b3;
+      }
+
+      @media (max-width: 600px) {
+        .game-container {
+          margin: 20px;
+          padding: 15px;
+        }
+        summary {
+          font-size: 1em;
+        }
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <title>Kuis / Evaluasi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kuis & Evaluasi</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="tujuan.html">Tujuan</a>
+      <a href="indikator.html">Indikator</a>
+      <a href="materi.html">Materi</a>
+      <a href="rangkuman.html">Rangkuman</a>
+    </nav>
+
+    <main class="game-container">
+      <p>
+        Pilih indikator untuk memulai game atau kuis interaktif yang sesuai
+        dengan materi pembelajaran.
+      </p>
+
+      <!-- Indikator 1 -->
+      <details>
+        <summary>Indikator 1: Peralatan Kamera</summary>
+        <div class="submenu">
+          <p>
+            Game ini akan membantu siswa mengenal bagian-bagian kamera dan
+            fungsinya melalui animasi interaktif.
+          </p>
+          <a href="game-indikator1.html" class="game-link">Mainkan Game</a>
+        </div>
+      </details>
+
+      <!-- Indikator 2 -->
+      <details>
+        <summary>Indikator 2: Segitiga Exposure</summary>
+        <div class="submenu">
+          <p>
+            Game ini melatih siswa mengatur kombinasi aperture, ISO, dan shutter
+            speed untuk mendapatkan pencahayaan yang seimbang.
+          </p>
+          <a href="game-indikator2.html" class="game-link">Mainkan Game</a>
+        </div>
+      </details>
+
+      <!-- Indikator 3 -->
+      <details>
+        <summary>Indikator 3: Komposisi & Teknik Pengambilan Gambar</summary>
+        <div class="submenu">
+          <p>
+            Game ini mengajak siswa menata elemen visual dalam frame untuk
+            menghasilkan komposisi foto yang menarik.
+          </p>
+          <a href="game-indikator3.html" class="game-link">Mainkan Game</a>
+        </div>
+      </details>
+    </main>
+
+    <footer>© 2025 Dasar Fotografi SMK DKV</footer>
+  </body>
+</html>

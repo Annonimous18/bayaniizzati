@@ -1,0 +1,176 @@
+/* ==== STYLE UTAMA WEBSITE PEMBELAJARAN DASAR FOTOGRAFI ==== */
+
+/* RESET DASAR */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f8fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #002b5b;
+  color: #fff;
+  padding: 25px 15px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+header p {
+  font-size: 1rem;
+  color: #d0e6f6;
+}
+
+/* NAVIGASI */
+nav {
+  background-color: #005f73;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  font-weight: 500;
+  background-color: #0a9396;
+}
+
+nav a:hover {
+  background-color: #94d2bd;
+  color: #002b5b;
+}
+
+/* KONTEN UTAMA */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #002b5b;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.placeholder {
+  border: 2px dashed #ccc;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  color: #777;
+  background: #fafafa;
+  font-size: 0.95rem;
+}
+
+.placeholder ul {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #002b5b;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* ==== RESPONSIVE DESIGN ==== */
+
+/* Tablet kecil (≤ 768px) */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    flex: 1 1 40%;
+    text-align: center;
+    margin: 3px;
+    font-size: 0.95rem;
+  }
+
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .placeholder {
+    padding: 30px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Smartphone (≤ 480px) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 8px;
+  }
+
+  nav a {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .placeholder {
+    padding: 25px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+}
+
+video {
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
